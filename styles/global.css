@@ -1,0 +1,105 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+a{
+    text-decoration: none
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.logo-link{
+    font-family: 'Righteous', cursive;
+    font-size: 5rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+.logo-text::before{
+    content: '<a>';
+}
+
+.logo-link::after{
+    content: '</a>';
+    margin-left: 39.7rem;
+    margin-bottom: 4.4rem;
+}
+nav{
+    margin-right: 5rem;
+}
+ul{
+    display: flex;
+}
+
+ul li{
+    margin-left: 2.9rem;
+    
+}
+
+
+ul li a{
+    font-family: 'Righteous', cursive;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 1);
+    transition: 0.4s all;
+}
+
+ul li a:hover{
+    color: rgb(53, 104, 163);
+    text-decoration: underline;
+}
+
+.main-text{
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.main-text > h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 8rem;
+    color: rgba(0,0,0, 1);
+    width: 100rem;
+}
+
+.main-text > p{
+    margin-top: 3.3rem;
+    width: 69.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
+img{
+    position: absolute;
+    top: 25rem;
+    right: 0;
+}
+
+button{
+    width: 47.7rem;
+    margin-top: 7.4rem;
+    margin-left: 5rem;
+    background-color:  rgba(27, 58, 93, 1);
+    color: white;
+    border: none;
+    padding: 2rem;
+    border-radius: 6rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
