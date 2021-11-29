@@ -1,0 +1,44 @@
+.main-text{
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.main-text > h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 8rem;
+    color: rgba(0,0,0, 1);
+    width: 100rem;
+}
+
+.main-text > p{
+    margin-top: 3.3rem;
+    width: 69.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
+img{
+    position: absolute;
+    top: 25rem;
+    right: 0;
+}
+
+button{
+    width: 47.7rem;
+    margin-top: 7.4rem;
+    margin-left: 5rem;
+    background-color:  rgba(27, 58, 93, 1);
+    color: white;
+    border: none;
+    padding: 2rem;
+    border-radius: 6rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
