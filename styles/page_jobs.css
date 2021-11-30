@@ -1,8 +1,8 @@
 .box-search{
     display: flex;
     align-items:center;
-    width: 120rem;
-    height: 10rem;
+    width: 100rem;
+    height: 8rem;
     background-color: rgba(27, 58, 93, 1);
     margin: 4rem auto;
     border-radius: 5rem;
@@ -12,14 +12,14 @@
     background-color: transparent;
     border: none;
     outline: none;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: Poppins, sans-serif;
     color: white;
 }
 
 .search-input::placeholder{
     color: rgba(255, 255, 255, 0.36);
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: Poppins, sans-serif;
 }
 .span-filters{
@@ -32,16 +32,27 @@
 
 .span-filters::before{
     content: '|';
-    height: 10rem;
+    height: 8rem;
     background-color: rgba(255, 255, 255, 0.36);
 }
 #btn-filters{
-    margin-left:  5rem;
-    font-size: 4rem;
+    margin-left:  3rem;
+    font-size: 3rem;
     font-family: Poppins, sans-serif;
     color: white;
     cursor: pointer;
     background-color: transparent;
     border: none;
+}
 
+.jobs-container{
+    margin: auto;
+    width: 100rem;
+    height: 24rem;
+    background-color: white;
+    border-radius: .5rem;
+    margin-top: 4rem;
+    margin-bottom: 2.8rem;
+    cursor: pointer;
+    display: flex;
 }
