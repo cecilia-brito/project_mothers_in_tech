@@ -72,3 +72,14 @@ ul li a:hover{
     border-width: 0;
 }
 
+.pattern-input{
+    /* font-family: Roboto, sans-serif; */
+    display: block;
+    width: 54.6rem;
+    height: 5rem;
+    background-color: rgba(27, 58, 93, 1);
+    color: white;
+    border: none;
+    margin-bottom: 2.3rem;
+    border-radius: .5rem;
+}

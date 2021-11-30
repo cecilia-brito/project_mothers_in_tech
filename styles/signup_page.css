@@ -27,22 +27,12 @@
     width: 55rem;
 }
 
-.pattern-input{
-    /* font-family: Roboto, sans-serif; */
-    display: block;
-    width: 54.6rem;
-    height: 5rem;
-    background-color: rgba(27, 58, 93, 1);
-    color: white;
-    border: none;
-    margin-bottom: 2.3rem;
-    border-radius: .5rem;
-}
 
 .select-area{
-    width: 12.5rem;
+    width: 20rem;
     background-color: rgba(27, 58, 93, 1);
     color: white;
+    font-size: 2rem;
 }
 
 .div-btn-and-tag-a{
@@ -76,4 +66,9 @@
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     margin: 3.6rem 0 0 3rem;
+    transition:0.3s all ;
 }
+
+.div-btn-and-tag-a a:hover{
+    text-decoration: underline;
+}    
