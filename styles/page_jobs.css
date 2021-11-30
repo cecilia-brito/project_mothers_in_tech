@@ -54,5 +54,32 @@
     margin-top: 4rem;
     margin-bottom: 2.8rem;
     cursor: pointer;
-    display: flex;
+}
+
+
+.jobs-container > a{
+        text-decoration: none;
+}
+.name-job{
+    font-size: 3rem;
+    font-family: Poppins, sans-serif;
+    padding: 2rem;
+    display: inline-block;
+}
+
+.locate{
+display: inline-block;
+font-family: Poppins, sans-serif;
+font-size: 2rem;
+color:  rgba(0, 0, 0, 0.25);
+}
+
+.description-job{
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    font-family: Poppins, sans-serif;
+    margin-top: 3rem;
+    /* font-weight: 200; */
 }
