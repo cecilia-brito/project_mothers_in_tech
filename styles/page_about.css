@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(27, 58, 93, 1);
+}
+
+.logo-link, nav ul li a{
+color: white;
+}
+nav ul li a{
+    transition: 0.3s all;
+}
+ nav ul li a:hover{
+color: black;
+}
+
+
+.div-about{
+    display: flex;
+    width: 100rem;
+    height: 35rem;
+    margin: 8rem auto 8rem auto;
+}
+
+.div-about div{
+    width: 38rem;
+    height: 36rem;
+    background-color: rgba(43, 88, 138, 0.52);
+    border: 0.2rem solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.div-who-we-are:hover, .div-objective:hover, .div-can-you-help:hover, .div-who-we-are > h2:hover, .div-objective > h2:hover, .div-can-you-help > h2:hover{
+    background-color:rgba(27, 58, 93, 1);
+    font-size: 6rem;
+}
+
+.div-about div > h2{
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.parceiros{
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10rem;
+    font-size: 5rem;
+}
