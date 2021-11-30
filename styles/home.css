@@ -1,11 +1,11 @@
 .main-text{
-    margin-left: 5rem;
+    margin-left: 6rem;
     margin-top: 5rem;
 }
 
 .main-text > h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 8rem;
+    font-size: 6rem;
     color: rgba(0,0,0, 1);
     width: 100rem;
 }
@@ -14,26 +14,26 @@
     margin-top: 3.3rem;
     width: 69.6rem;
     font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 img{
     position: absolute;
-    top: 25rem;
+    top: 16rem;
     right: 0;
 }
 
 button{
-    width: 47.7rem;
+    width: 44.7rem;
     margin-top: 7.4rem;
     margin-left: 5rem;
     background-color:  rgba(27, 58, 93, 1);
     color: white;
     border: none;
-    padding: 2rem;
+    padding: 1.6rem;
     border-radius: 6rem;
     font-family: 'Poppins', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
     transition: 1s all;

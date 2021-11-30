@@ -4,9 +4,11 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width"/>
 <!--         <meta http-equiv="Content-Security-Policy" content="font-src 'self' data:; img-src 'self' data:; default-src 'self'"/> -->
-        <title>Amazing Graph</title>
+        <title>Sign Up in Mothers In Tech</title>
         <link rel="stylesheet" type='text/css' href="/styles/reset.css"></link>
         <link rel="stylesheet"  type='text/css' href="/styles/global.css"></link>
+        <link rel="stylesheet"  type='text/css' href="/styles/signup_page.css"></link>
+        <link rel="shortcut icon" type="imagex/png" href="/assets/icon_white.ico">
 
         <!-- import fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,6 +20,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     </head> 
     <body>
         <header>
@@ -32,5 +37,63 @@
                 </ul>
             </nav>
         </header>
+        <main>
+            <div class="box-form">
+                <form>
+                    <div class="div-choose-file-and-user-img">
+                        <div class='div-user-img'>
+                            <img class='user-img' src="/assets/user.svg">
+                        </div>
+                        <label for="choose-file" class="sr-only">Escolha o arquivo</label>
+                        <input class="choose-file" type="file" id="choose-file" required>
+                    </div>   
+                        <div class="div-normal-inputs">
+                            <label for="name-user" class="sr-only">Nome</label>
+                            <input class="pattern-input" type="text" id="name-user" placeholder="Nome" required>
+
+                            <label for="last-name-user" class="sr-only">Sobrenome</label>
+                            <input class="pattern-input" type="text" id="last-name-user" placeholder="Sobrenome" required>
+
+                            <label for="email-user" class="sr-only">E-mail</label>
+                            <input class="pattern-input" type="email" id="email-user" placeholder="E-mail" required>
+
+                            <label for="link-likedin-user" class="sr-only">Link do seu LinkedIn</label>
+                            <input class="pattern-input" type="url" id="link-likedin-user" placeholder="Link do seu LinkedIn" required>
+
+                            <label for="password-user" class="sr-only">Senha</label>
+                            <input class="pattern-input" type="password" id="password-user" placeholder="Senha" required>
+
+                            <label for="repeat-password-user" class="sr-only">Confirme sua senha</label>
+                            <input class="pattern-input" type="password" id="repeat-password-user" placeholder= "Confirme sua senha" required>
+
+                            <label for="telephone-user" class="sr-only">Telefone</label>
+                            <input class="pattern-input" type="tel" id="telephone-user" placeholder="Telefone" required>
+
+                            <select class="select-area">
+                                <option id="0">Área de atuação</option>
+                                <option id="1">Administração</option>
+                                <option id="2">Artes e Design</option>
+                                <option id="3">Ciências Exatas e Informática</option>
+                                <option id="4">Ciências Sociais e Humanas</option>
+                                <option id="5">Comunicação e Informação</option>
+                                <option id="6">Engenharias</option>
+                                <option id="7">Meio Ambiente</option>
+                                <option id="8">Saúde e Bem-estar</option>
+                            </select>
+                            <div class="div-btn-and-tag-a">
+                                <button class="send-btn">Enviar</button>
+                                <a href="/page_login.html">Já é cadastrado? Clique aqui</a>
+                            </div>
+                        </div>
+
+                    <!-- <label for="email">E-mail</label>
+                    <input  class="pattern-input" type="email" id="email" placeholder="seuemail@dominio.com" required>
+
+                    <label for="phone">Telefone</label>
+                    <input class="pattern-input" type="tel" id="phone" placeholder="(XX) XXXXX-XXXX" required> -->
+
+                </form>
+            </div>
+        </main>
     </body>  
 </html>      
