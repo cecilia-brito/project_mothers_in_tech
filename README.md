@@ -21,6 +21,7 @@ Multipages feito com CSS e HTML, feito para ser parte de um projeto social que d
 <li>🕗 Ferrmenta para o admin cadastrar vagas e oportunidades</li>
 <li>🕗 Busca de oportunidades por palavra-chave e filtros de pesquisa</li>
 </ul>
+
 ## Resultado
 
 <p>Hospedado no Github Pages <a href='https://cecilia-brito.github.io/project_mothers_in_tech/'>aqui</a></p>
