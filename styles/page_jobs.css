@@ -83,3 +83,25 @@ color:  rgba(0, 0, 0, 0.25);
     margin-top: 3rem;
     /* font-weight: 200; */
 }
+
+#filters{
+  background-color: rgba(229, 229, 229, 1);
+  height: 100vh;
+  width: 20rem;
+  position: absolute;
+  top:10rem;
+  display: block;
+  visibility:hidden;
+}
+
+#filters li {
+    display: flex;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 3rem;
+    color: rgba(27, 58, 93, 1);
+}
+
+#filters.active{
+    visibility: visible;
+}
