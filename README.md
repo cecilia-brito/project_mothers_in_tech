@@ -11,7 +11,7 @@ Multipages feito com CSS e HTML, feito para ser parte de um projeto social que d
 
 ## Design
 
-## Fearures
+## Features
 
 <ul>
 <li>🕗 Cadastro de usuário</li>
