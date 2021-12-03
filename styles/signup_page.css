@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 .box-form{
     border-radius: 2rem;
     /* width: 34rem; */
@@ -27,12 +31,18 @@
     width: 55rem;
 }
 
+.div-normal-inputs input::placeholder{
+    color:rgba(255, 255, 255, 0.36);
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
 
 .select-area{
     width: 20rem;
     background-color: rgba(27, 58, 93, 1);
     color: white;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .div-btn-and-tag-a{
