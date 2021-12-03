@@ -11,7 +11,9 @@ Multipages feito com CSS e HTML, feito para ser parte de um projeto social que d
 
 ## Design
 
-## Fearures
+<a href="https://www.figma.com/file/MvuB1IUMP8UzjDhyx8dlRE/Prototipo-meninas-in-tech?node-id=1%3A2"><img width='60' height='60' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" /></a>
+
+## Features
 
 <ul>
 <li>🕗 Cadastro de usuário</li>
