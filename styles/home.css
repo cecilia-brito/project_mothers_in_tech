@@ -12,7 +12,7 @@
 }
 
 .main-text > p{
-    margin-top: 2.5rem;
+    margin-top: 3.3rem;
     width: 69.6rem;
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
@@ -20,7 +20,7 @@
 
 button{
     width: 44.7rem;
-    margin-top: 7.4rem;
+    margin-top: 4rem;
     margin-left: 5rem;
     background-color:  rgba(27, 58, 93, 1);
     color: white;
