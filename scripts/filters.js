@@ -16,5 +16,21 @@ function filtrando(){
         job2.classList.toggle('desactive{');
         job5.classList.toggle('desactive{');
     }
+    if(checkvagas.checked){
+        job2.classList.toggle('active');
+        job3.classList.toggle('active');
+        job1.classList.toggle('active');
+        job4.classList.toggle('desactive');
+        job2.classList.toggle('desactive{');
+        job5.classList.toggle('desactive{');
+    }
+    if(checkvagas.checked){
+        job2.classList.toggle('active');
+        job3.classList.toggle('active');
+        job1.classList.toggle('active');
+        job4.classList.toggle('desactive');
+        job2.classList.toggle('desactive{');
+        job5.classList.toggle('desactive{');
+    }
 }
 
