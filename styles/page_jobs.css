@@ -60,6 +60,15 @@
 .jobs-container > a{
         text-decoration: none;
 }
+
+.jobs-container.active{
+    visibility: visible;
+}
+
+.jobs-container.desactive{
+    visibility: hidden;
+}
+
 .name-job{
     font-size: 3rem;
     font-family: Poppins, sans-serif;

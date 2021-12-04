@@ -1,0 +1,12 @@
+body{
+    background-color:rgba(27, 58, 93, 1);
+    ;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 600;
+    height: 600;
+}
