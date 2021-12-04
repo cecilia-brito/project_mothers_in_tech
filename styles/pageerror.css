@@ -1,7 +1,7 @@
 body{
     background-color:rgba(27, 58, 93, 1);
 }
-.logo-text{
+.logo-text, .logo-link{
     color: white;
 }
 
@@ -14,7 +14,7 @@ ul li a{
     color: white;
 }
 
-main div{
+.box-error{
     display: block;
     /* align-items: center; */
     margin: 5rem auto;
@@ -24,13 +24,14 @@ main div{
     border: .3rem solid rgba(255, 255, 255, 0.5);
 }
 
-div h2{
+.box-error h2{
     font-family:'Righteous', cursive;
     font-size: 3rem;
     display: block;
     color: rgba(255, 255, 255, 0.8);
 }
 
-div img{
+.box-error img{
     display: block;
+    margin: auto;
 }
