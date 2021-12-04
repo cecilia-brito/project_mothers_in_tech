@@ -1,6 +1,9 @@
 body{
     background-color:rgba(27, 58, 93, 1);
-    ;
+}
+
+ul li a{
+    color: white;
 }
 
 div{
@@ -9,4 +12,10 @@ div{
     margin: auto;
     width: 600;
     height: 600;
+    background-color: rgba(43, 88, 138, 0.52);
+}
+
+div h2{
+    font-family:'Righteous', cursive;
+    font-size: 3rem;
 }

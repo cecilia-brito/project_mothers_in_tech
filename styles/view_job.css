@@ -9,6 +9,9 @@
 
 .name-job{
 display: block;
+color: black;
+font-family: Poppin, sans-serif;
+font-size: 2.8rem;
 }
 
 .description-job{
@@ -22,8 +25,13 @@ display: block;
     background-color: rgba(27, 58, 93, 0.28);
     display: block;
     border-radius: 0.5rem;
+    font-family: Poppins, sans-serif;
 }
 
+.requisitos-box h3{
+    color: rgba(27, 58, 93, 1);
+    font-size: 2.2rem;
+}
 .img-job{
     position: absolute;
     right: 16rem;
