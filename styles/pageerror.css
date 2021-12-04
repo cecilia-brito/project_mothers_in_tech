@@ -14,17 +14,18 @@ ul li a{
 main div{
     display: block;
     /* align-items: center; */
-    margin: auto;
-    width: 60rem;
-    height: 60rem;
+    margin: 5rem auto;
+    width: 40rem;
+    height: 35rem;
     background-color: rgba(43, 88, 138, 0.52);
-    border: .5rem solid rgba(255, 255, 255, 0.6);
+    border: .3rem solid rgba(255, 255, 255, 0.5);
 }
 
 div h2{
     font-family:'Righteous', cursive;
     font-size: 3rem;
     display: block;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 div img{
