@@ -8,7 +8,7 @@ ul li a{
     color: white;
 }
 
-div{
+main div{
     display: flex;
     align-items: center;
     margin: auto;
@@ -20,5 +20,9 @@ div{
 div h2{
     font-family:'Righteous', cursive;
     font-size: 3rem;
+    display: block;
+}
+
+div img{
     display: block;
 }
