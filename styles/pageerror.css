@@ -24,14 +24,14 @@ ul li a{
     border: .3rem solid rgba(255, 255, 255, 0.5);
 }
 
-.box-error h2{
+.text-error{
     font-family:'Righteous', cursive;
     font-size: 3rem;
     display: block;
     color: rgba(255, 255, 255, 0.8);
 }
 
-.box-error img{
-    display: block;
+.img-error{
+    display: flex;
     margin: auto;
 }
