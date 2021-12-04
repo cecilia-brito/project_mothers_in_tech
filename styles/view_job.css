@@ -12,10 +12,13 @@ display: block;
 color: black;
 font-family: Poppin, sans-serif;
 font-size: 2.8rem;
+margin-top: 5rem;
+margin-left: 5rem;
 }
 
 .description-job{
 display: block;
+font-size: 1.8rem;
 }
 
 .requisitos-box{
@@ -31,6 +34,8 @@ display: block;
 .requisitos-box h3{
     color: rgba(27, 58, 93, 1);
     font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .img-job{
     position: absolute;

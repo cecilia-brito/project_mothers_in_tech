@@ -1,7 +1,9 @@
 body{
     background-color:rgba(27, 58, 93, 1);
 }
-
+.logo-text{
+    color: white;
+}
 ul li a{
     color: white;
 }
@@ -18,4 +20,5 @@ div{
 div h2{
     font-family:'Righteous', cursive;
     font-size: 3rem;
+    display: block;
 }
