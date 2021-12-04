@@ -6,31 +6,27 @@ const job5 = document.getElementById('5');
 const checkvagas = document.getElementById('check-vagas');
 const checkcursos = document.getElementById('check-cursos');
 const listFilters = document.getElementById('filters');
+const heckoutros = document.getElementById('check-outros');
 
-function filtrando(){
     if(checkvagas.checked){
         job2.classList.toggle('active');
         job3.classList.toggle('active');
         job1.classList.toggle('active');
         job4.classList.toggle('desactive');
-        job2.classList.toggle('desactive{');
-        job5.classList.toggle('desactive{');
+        job5.classList.toggle('desactive');
     }
-    if(checkvagas.checked){
-        job2.classList.toggle('active');
-        job3.classList.toggle('active');
+    if(checkcursos.checked){
+        job4.classList.toggle('active');
+        job5.classList.toggle('active');
+        job1.classList.toggle('desactive');
+        job3.classList.toggle('desactive');
+        job2.classList.toggle('desactive');
+    }
+    if(checkoutros.checked){
         job1.classList.toggle('active');
+        job2.classList.toggle('desactive');
+        job3.classList.toggle('desactive');
         job4.classList.toggle('desactive');
-        job2.classList.toggle('desactive{');
-        job5.classList.toggle('desactive{');
+        job5.classList.toggle('desactive');
     }
-    if(checkvagas.checked){
-        job2.classList.toggle('active');
-        job3.classList.toggle('active');
-        job1.classList.toggle('active');
-        job4.classList.toggle('desactive');
-        job2.classList.toggle('desactive{');
-        job5.classList.toggle('desactive{');
-    }
-}
 
