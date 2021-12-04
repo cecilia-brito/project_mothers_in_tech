@@ -5,6 +5,9 @@ body{
     color: white;
 }
 
+.logo-text::after{
+    color: white;
+}
 
 
 ul li a{
