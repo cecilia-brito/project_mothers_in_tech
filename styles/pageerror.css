@@ -4,6 +4,9 @@ body{
 .logo-text{
     color: white;
 }
+
+
+
 ul li a{
     color: white;
 }
@@ -12,9 +15,10 @@ main div{
     display: flex;
     align-items: center;
     margin: auto;
-    width: 600;
-    height: 600;
+    width: 60rem;
+    height: 60rem;
     background-color: rgba(43, 88, 138, 0.52);
+    border: .5rem solid rgba(255, 255, 255, 0.6);
 }
 
 div h2{
