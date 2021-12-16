@@ -26,7 +26,7 @@ Multipages feito com CSS e HTML, feito para ser parte de um projeto social que d
 
 ## Resultado
 
-<p>Hospedado no Github Pages <a href='https://cecilia-brito.github.io/'>aqui</a></p>
+<p>Hospedado no Github Pages <a href='https://cecilia-brito.github.io/project_mothers_in_tech/'>aqui</a></p>
 
 ## → Tecnologias Utilizadas
 <a href='https://developer.mozilla.org/pt-BR/docs/Web/HTML'><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt='logo do HTML em laranja' width ='60' height='60'/></a><a href='https://developer.mozilla.org/pt-BR/docs/Web/CSS'><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt='logo do CSS em azul'  width ='60' height='60'/></a><a href='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript'><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt='logo do JavaScript em amarelo'  width ='60' height='60' /></a>
